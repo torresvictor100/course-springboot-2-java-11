@@ -26,7 +26,7 @@ public class User implements Serializable{
 	}
 
 
-	public User(long id, String name, String email, String phone, String passaword) {
+	public User(Long id, String name, String email, String phone, String passaword) {
 		this.id = id;
 		this.name = name;
 		this.email = email;
@@ -35,7 +35,7 @@ public class User implements Serializable{
 	}
 
 
-	public long getId() {
+	public Long getId() {
 		return id;
 	}
 
