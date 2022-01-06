@@ -1,4 +1,4 @@
-package com.educandoweb.course.service;
+package com.educandoweb.course.services;
 
 import java.util.List;
 import java.util.Optional;
@@ -15,7 +15,7 @@ public class UserService {
 	@Autowired
 	private UserRepository repository;
 	
-	public List<User>findall(){
+	public List<User>findAll(){
 		return repository.findAll();
 	}
 	
