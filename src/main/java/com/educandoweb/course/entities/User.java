@@ -90,12 +90,12 @@ public class User implements Serializable{
 	}
 
 
-	public String getPassaword() {
+	public String getPassword() {
 		return password;
 	}
 
 
-	public void setPassaword(String password) {
+	public void setPassword(String password) {
 		this.password = password;
 	}
 	
